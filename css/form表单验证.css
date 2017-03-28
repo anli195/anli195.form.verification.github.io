@@ -1,0 +1,78 @@
+.reg {
+	overflow: hidden;
+	border: 1px solid red;
+}
+.reg p {
+	padding: 5px 0;
+	overflow: hidden;
+}
+.reg p .title {
+	float:left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	text-align: right;
+}
+.reg p .codeBtn {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 30px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+
+.reg p input[type="text"],.reg p input[type="password"] {
+	float: left;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+
+.reg p label {
+	float: left;
+	overflow: hidden;
+}
+.reg p label input[type="radio"],.reg p label input[type="checkbox"] {
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.reg p label em {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 3px;
+}
+.reg p textarea {
+	float: left;
+	width: 500px;
+	height: 120px;
+	padding: 0 10px;
+}
+.reg_btn {
+	float: left;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background: green;
+}
+.prompt {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+.error {
+	color: #fff;
+	background: red;
+}
+select{
+	float: left;
+}
